@@ -7,4 +7,4 @@ laufen, springen, ducken/kriechen, schießen
 2D Sidescroller, Platformer
 
 ## Mitarbeiter
-Tanem
+Tanem Basaraner, Tra My Nguyen, Quynh Vi Trinh
