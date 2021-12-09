@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4cbc7614c108a49c5a40b4185e21fbcd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cronus Round
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: bc4a3dd70c66d4f46858e31fb82edb1c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
