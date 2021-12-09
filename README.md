@@ -1,4 +1,5 @@
-# Spielidee
+# TAMYQU
+
 
 ## HauptMechanik 
 laufen, springen, ducken/kriechen, schießen
