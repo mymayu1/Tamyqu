@@ -5,7 +5,7 @@
 ## Beschreibung
 
 TAMYQU - unser 2D Game
-Bei unserem Jump and Run Game geht es darum den Spieler zum Ende des Süiels zu navigieren, während der Player einige Hindernisse ausweichen muss und sich dabei von Platform zu Platform bewegt.
+Bei unserem Jump and Run Game geht es darum den Spieler zum Ende des Spiels zu navigieren, während der Player einige Hindernisse ausweichen muss und sich dabei von Platform zu Platform bewegt.
 
 
 ### Genre & Art Style
@@ -24,23 +24,90 @@ Außerdem kann der Player auch schießen mit der ","-Taste, dabei schießt er vo
 
 Der Player kann auch Items einsammeln, wie die Diamanten, Äpfel und Herzen.
 
+Um das Spiel zu pausieren, muss die P Taste gedrückt werden.
+
 ### Enemies
 Die Enemies sind auch Prefabs, die im Spiel platziert wurden, sie bewegen sich aber minimal um 0.7 Einheiten von der Stelle mit einer Geschwindigkeit von 1.5E. Wenn der Player mit einem Enemy in Berührung kommt wird ein Leben von dem Player abgezogen.
+Stirbt sobald er von einem Bullet getroffen wird.
 
 ### Items
 
 Diamanten - Item um das Bonus Level freischalten zu können, spaß bei sammeln.
 Äpfel - Beim einsammeln eines Apfels werden 3 bullets garantiert.
 Ring - Key um die Tür zum nächsten Level zu öffnen und um das Level zu beenden.
+Spikes - Hinderniss im Spiel, was ausgeweicht werden muss, sonst verliert der Player ein Leben.
 
 ## Spiel
 
-### Hauptmenü
+### Hauptmenü & Pausenmenü
 
 Bevor das Spiel gestartet wird, erscheint das Hauptmenü. 
-Dazu gibts die Option mit PLAY das Spiel zu starten. Mit OPTIONS wird eine kleine Übersicht eingeblendet, wie das Spiel gesteuert und gespielt wird. Außerdem kann man dazu auch die Lautstärke der Hintergrundmusik des Spiels einstellen.
+PLAY - Das Spiel wird gestartet
+OPTIONS - Erklärung wie das Spiel gesteuert und gespielt wird, Volumeregler (einstellen der Lautstärke)
+
 
 ![Hauptmenue](https://user-images.githubusercontent.com/65132134/145465544-f6c279b8-0b31-4661-84b1-7a3e775e014a.gif)
+
+##### Das Pausenmenü wird durch die P Taste aufgerufen.
+
+Resume - Das Spiel wird fortgesetzt
+Main Menu - Der Spielfortschritt wird beendet und man wird zum Hauptmenü geleitet.
+Quit Game - Das Spiel wird beendet und die App wird geschlossen.
+
+
+![PauseMenue](https://user-images.githubusercontent.com/65132134/145469388-d93450f7-8a2d-429d-bad4-f08b3aed1bfc.gif)
+
+
+### Player Control
+
+Der Player kann mit der Steuerung sich fortbewegen, von der Platform springen und Items einsammeln.
+
+
+![PlayerCollecting](https://user-images.githubusercontent.com/65132134/145466022-ddd182fb-ed61-4239-911b-affa6c6c4317.gif)
+
+
+
+Der Player schießt seine Enemies ab und begegnet Hindernissen.
+
+
+![PlayerItems](https://user-images.githubusercontent.com/65132134/145466598-0e033fbc-281a-4053-abf3-a5df7a5afe3d.gif)
+
+
+
+Der Player muss den Ring einsammeln um das Level zu beenden und das nächste Level zu betreten.
+
+
+![PlayerKeyFinish](https://user-images.githubusercontent.com/65132134/145466978-53f718c1-0529-4a32-9653-242c6f56cde7.gif)
+
+
+
+Um an manch schwererreichbare Items zu kommen, muss der Player sich ducken.
+
+
+
+![PlayerCrouch](https://user-images.githubusercontent.com/65132134/145467149-e82cea2d-51cc-4325-b40e-bff440dc44cd.gif)
+
+
+### Objekte
+
+Damit es nicht allzu langweilig ist, gibt es schwebene Platforms die sich bewegen können und auch fallende Platforms.
+
+
+
+![MovingPlatform](https://user-images.githubusercontent.com/65132134/145467565-f1437adc-e91b-4850-b025-388d0a18b669.gif)
+
+
+
+
+![PlatformMovingFalling](https://user-images.githubusercontent.com/65132134/145467766-8d430f07-4430-4a2c-ba1f-bf360ea8ad62.gif)
+
+
+
+Um schwererreichbare Platforms zu erreichen, gibt es Leitern um sie zu erreichen.
+
+
+
+![Ladder](https://user-images.githubusercontent.com/65132134/145468040-1c8ddc0a-6415-44d8-8d0f-832c84a37cd9.gif)
 
 
 
@@ -54,23 +121,4 @@ Software
 
 
 
-### Screenshots and Videos
-
-https://user-images.githubusercontent.com/75205438/145386051-eeea32ee-62d4-42c0-a207-83649dfe9cf7.MOV
-
-https://user-images.githubusercontent.com/75205438/145386185-50358322-c7fa-40d4-86d3-0adcab527010.MOV
-
-https://user-images.githubusercontent.com/75205438/145386459-b23f645e-2ebf-4012-9a41-bf2ee6ee5275.MOV
-
-https://user-images.githubusercontent.com/75205438/145387465-5b995a1f-acc8-4d53-b7d6-fcd33bdb5c7e.MOV
-
-https://user-images.githubusercontent.com/75205438/145387596-af041543-a06e-4539-8cb1-20e634055b8c.MOV
-
-https://user-images.githubusercontent.com/75205438/145387622-406f9047-5745-4d7c-ab6a-c905a7bbdab9.MOV
-
-https://user-images.githubusercontent.com/75205438/145387883-4a06c716-cf8c-42e6-921e-e9462dccdf17.mov
-
-https://user-images.githubusercontent.com/75205438/145387973-5ccc7770-075c-4a83-ab8f-3d3d6727a1e6.MOV
-
-https://user-images.githubusercontent.com/75205438/145387916-11393662-55f5-4aa3-b607-34f84dbfee57.MOV
 
