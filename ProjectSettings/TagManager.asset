@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Diamond
+  - Bullet
+  - Platform
+  - Deathzone
+  - ScreenShake
+  - Ladder
+  - Door
+  - ExitDoor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Foreground
+  - Player
+  - enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 1841450263
+    locked: 0
+  - name: Background-Items
+    uniqueID: 3820188899
+    locked: 0
+  - name: foreground
+    uniqueID: 1703550691
+    locked: 0
+  - name: Player
+    uniqueID: 2830136835
+    locked: 0
+  - name: clouds
+    uniqueID: 3223907735
+    locked: 0
