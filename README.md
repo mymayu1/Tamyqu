@@ -2,6 +2,11 @@
 
 # Game: TAMYQU
 
+## Beschreibung
+
+TAMYQU - unser 2D Game
+Bei unserem Jump and Run Game geht es darum den Spieler zum Ende des Süiels zu navigieren, während der Player einige Hindernisse ausweichen muss und sich dabei von Platform zu Platform bewegt.
+
 ## Main Mechanics 
 run, jump, crouch, shoot
 
