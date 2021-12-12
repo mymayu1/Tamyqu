@@ -14,7 +14,7 @@ Bei unserem Jump and Run Game geht es darum den Spieler zum Ende des Spiels zu n
 ## Features
 
 ### Player 
-Der Player wird mit gesteuert mit den WASD Tasten. Mit A und D bewegt er sich nach links und nach rechts bewegt er sich um 6 Einheiten, und dreht sich auch in die gedrückte Richtung. Mit W entered er Türen und mit S croucht der Spieler und kann dennoch sich nach links und rechts bewegen, wenn man S gedrückt hält.
+Der Player wird gesteuert mit den WASD Tasten. Mit A und D bewegt er sich nach links und nach rechts bewegt er sich um 6 Einheiten, und dreht sich auch in die gedrückte Richtung. Mit W entered er Türen und mit S croucht der Spieler und kann dennoch sich nach links und rechts bewegen, wenn man S gedrückt hält.
 
 Mit SPACE springt der Player vertikal nach oben um 3 Einheiten, dabei kann der Player auch sich nach links und nach rechts springen, wenn man die Steuerung gleichzeitig drückt. 
 
@@ -28,31 +28,33 @@ Um das Spiel zu pausieren, muss die P Taste gedrückt werden.
 
 ### Enemies
 Die Enemies sind auch Prefabs, die im Spiel platziert wurden, sie bewegen sich aber minimal um 0.7 Einheiten von der Stelle mit einer Geschwindigkeit von 1.5E. Wenn der Player mit einem Enemy in Berührung kommt wird ein Leben von dem Player abgezogen.
-Stirbt sobald er von einem Bullet getroffen wird.
+Stirbt sobald er von einem Bullet getroffen wird. Spikes sind Hindernisse im Spiel, welche ausgeweicht werden muss, sonst verliert der Player ein Leben
 
 ### Items
 
-Diamanten - Item um das Bonus Level freischalten zu können, spaß bei sammeln.
-Äpfel - Beim einsammeln eines Apfels werden 3 bullets garantiert.
-Ring - Key um die Tür zum nächsten Level zu öffnen und um das Level zu beenden.
-Spikes - Hinderniss im Spiel, was ausgeweicht werden muss, sonst verliert der Player ein Leben.
+
+<li>Diamanten - Item um das Bonus Level freischalten zu können, spaß bei sammeln.</li>
+<li>Äpfel - Beim einsammeln eines Apfels werden 3 bullets garantiert.</li>
+<li>Ring - Key um die Tür zum nächsten Level zu öffnen und um das Level zu beenden.</li>
+<li>Spikes - Hindernis im Spiel, was ausgeweicht werden muss, sonst verliert der Player ein Leben</li>
+
 
 ## Spiel
 
 ### Hauptmenü & Pausenmenü
 
-Bevor das Spiel gestartet wird, erscheint das Hauptmenü. 
-PLAY - Das Spiel wird gestartet
-OPTIONS - Erklärung wie das Spiel gesteuert und gespielt wird, Volumeregler (einstellen der Lautstärke)
+Bevor das Spiel gestartet wird, erscheint das Hauptmenü.
+<li>PLAY - Das Spiel wird gestartet</li>
+<li>OPTIONS - Erklärung wie das Spiel gesteuert und gespielt wird, Volumeregler (einstellen der Lautstärke)</li>
 
 
 ![Hauptmenue](https://user-images.githubusercontent.com/65132134/145465544-f6c279b8-0b31-4661-84b1-7a3e775e014a.gif)
 
 ##### Das Pausenmenü wird durch die P Taste aufgerufen.
 
-Resume - Das Spiel wird fortgesetzt
-Main Menu - Der Spielfortschritt wird beendet und man wird zum Hauptmenü geleitet.
-Quit Game - Das Spiel wird beendet und die App wird geschlossen.
+<li>Resume - Das Spiel wird fortgesetzt</li>
+<li>Main Menu - Der Spielfortschritt wird beendet und man wird zum Hauptmenü geleitet.</li>
+<li>Quit Game - Das Spiel wird beendet und die App wird geschlossen.</li>
 
 
 ![PauseMenue](https://user-images.githubusercontent.com/65132134/145469388-d93450f7-8a2d-429d-bad4-f08b3aed1bfc.gif)
