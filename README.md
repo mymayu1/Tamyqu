@@ -1,10 +1,9 @@
 ![Unity: 2021.2](https://img.shields.io/badge/unity-2021.2-ff6964)
 
-# Game: TAMYQU
+# Game: TAMYQU - 2D Game
 
 ## Beschreibung
 
-TAMYQU - unser 2D Game
 Bei unserem Jump and Run Game geht es darum den Spieler zum Ende des Spiels zu navigieren, während der Player einige Hindernisse ausweichen muss und sich dabei von Platform zu Platform bewegt.
 
 
